@@ -26,7 +26,7 @@ export default function Home() {
         ]}
         btnname="Discover More"
         btnurl="/about"/>
-      <MetricCounter />
+      {/* <MetricCounter /> */}
       <BusinessImpact/>
       <Products />
       <CostEstimator />

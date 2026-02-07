@@ -92,14 +92,14 @@ export default function ShortAbout() {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <div
               key={service.id}
               className="group relative animate-slideUp"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="relative h-full bg-white border-2 border-slate-200 rounded-3xl p-10 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-slate-300">
+              <div className="relative h-full bg-white border-2 border-slate-200 rounded-3xl p-6 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-slate-300">
 
                 {/* Soft hover gradient */}
                 <div
@@ -136,7 +136,7 @@ export default function ShortAbout() {
                     {service.features.map((feature, i) => (
                       <li
                         key={i}
-                        className="flex items-center gap-3 text-slate-700 opacity-0 group-hover:opacity-100 transition"
+                        className="flex items-center gap-3 text-slate-700 opacity-100 group-hover:opacity-100 transition"
                         style={{ transitionDelay: `${i * 80}ms` }}
                       >
                        {service.accent}
