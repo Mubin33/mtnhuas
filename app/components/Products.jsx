@@ -106,7 +106,7 @@ const Products = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex-1 bg-white relative overflow-hidden  items-center justify-center p-8">
+                <div className="flex-1 bg-white relative overflow-hidden  items-center justify-center lg:p-8">
                   <img
                     src={product.image}
                     alt={product.name}
