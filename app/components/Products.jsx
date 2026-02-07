@@ -110,7 +110,7 @@ const Products = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-contain filter drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain filter transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
               </div>
