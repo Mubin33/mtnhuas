@@ -58,6 +58,7 @@ export default function HeroShopify() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-4">
+              {/* <Link href="/contact">
               <button className="group inline-flex items-center gap-2 px-7 py-4 bg-[#1a202c] text-white text-[15px] font-semibold rounded-full hover:bg-[#2d3748] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02]">
                 Start Your Project
                 <svg
@@ -76,6 +77,8 @@ export default function HeroShopify() {
                   />
                 </svg>
               </button>
+              </Link> */}
+              <Link href="#result">
               <button className="inline-flex items-center gap-2 px-6 py-4 text-[#2d3748] bg-white rounded-full text-[15px] font-semibold hover:text-[#00c9a7] transition-colors duration-300">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -115,6 +118,7 @@ export default function HeroShopify() {
                 </svg>
                 Explore Portfolio
               </button>
+              </Link>
             </div>
 
             {/* Stats */}

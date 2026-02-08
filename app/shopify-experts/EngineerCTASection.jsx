@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function EngineerCTASection() {
   return (
@@ -46,12 +47,14 @@ export default function EngineerCTASection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button className="group px-8 py-4 bg-white text-[#0a2540] text-[15px] font-semibold rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02] min-w-[180px]">
+              {/* <button className="group px-8 py-4 bg-white text-[#0a2540] text-[15px] font-semibold rounded-full hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02] min-w-[180px]">
                 Start Your Project
-              </button>
+              </button> */}
+                <Link href="/contact">
               <button className="group px-8 py-4 bg-[#00d4aa] text-white text-[15px] font-semibold rounded-full hover:bg-[#00c49a] transition-all duration-300 shadow-lg shadow-[#00d4aa]/25 hover:shadow-xl hover:shadow-[#00d4aa]/40 hover:scale-[1.02] min-w-[180px]">
                 Schedule Consultation
               </button>
+                </Link>
             </div>
           </div>
 

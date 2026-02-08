@@ -55,7 +55,7 @@ export default function ProvenResultsSection() {
   ];
 
   return (
-    <section className="relative bg-linear-to-br from-[#f8f9fb] to-[#f1f3f7] py-16 lg:py-20">
+    <section id="result" className="relative bg-linear-to-br from-[#f8f9fb] to-[#f1f3f7] py-16 lg:py-20">
       <div className="max-w-[1660px] w-[95%] mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="flex items-start justify-between mb-12">
