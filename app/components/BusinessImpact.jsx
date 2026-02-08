@@ -24,7 +24,7 @@ export default function BusinessImpact() {
   return (
     <section className="relative py-12 bg-neutral-950 text-white overflow-hidden">
       {/* Ambient gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-white to-white pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-br from-white via-white to-white pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:grid lg:grid-cols-[1.2fr_1fr] gap-20 items-center">
         
@@ -85,7 +85,7 @@ export default function BusinessImpact() {
                   {item.desc}
                 </p>
 
-                <div className="mt-4 h-px w-full bg-gradient-to-r from-[#83a1cb]/40 to-transparent" />
+                <div className="mt-4 h-px w-full bg-linear-to-r from-[#83a1cb]/40 to-transparent" />
               </div>
             ))}
           </div>

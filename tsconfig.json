@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/shopify-experts/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

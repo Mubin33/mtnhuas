@@ -80,7 +80,7 @@ const MetricCounter = () => {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center divide-x divide-slate-400/50">
                     {metrics.map((metric, index) => (
                         <div key={index} className="flex flex-col items-center justify-center p-4">
-                            <div className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-white to-slate-100 mb-2 font-sans tracking-tight">
+                            <div className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-linear-to-br from-white to-slate-100 mb-2 font-sans tracking-tight">
                                 <AnimatedCounter end={metric.value} suffix={metric.suffix} />
                             </div>
                             <p className="text-sm md:text-base font-md text-white tracking-widest">

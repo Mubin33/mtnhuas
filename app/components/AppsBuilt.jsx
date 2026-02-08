@@ -174,7 +174,7 @@ const AppsBuilt = () => {
                       {/* We only show the button interaction on the active large card for better UX, or all if preferred. 
                           Given the 'scale' effect, usually active is the focus. */}
                       <div className={`absolute inset-0 flex flex-col justify-end p-6 opacity-0 hover:opacity-100 transition-opacity duration-300 ${!isActive && 'pointer-events-none'}`}>
-                        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-black/60 to-transparent pointer-events-none transition-opacity duration-300" />
+                        <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-black/60 to-transparent pointer-events-none transition-opacity duration-300" />
                         <Link
                           href={item.link}
                           target="_blank"

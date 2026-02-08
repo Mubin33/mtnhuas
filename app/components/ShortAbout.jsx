@@ -78,10 +78,10 @@ export default function ShortAbout() {
           </span>
 
           <h2 className="text-5xl md:text-7xl font-black tracking-tight mb-6">
-            <span className="bg-gradient-to-r from-slate-900 to-[#83a1cb] bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-slate-900 to-[#83a1cb] bg-clip-text text-transparent">
               Services That
             </span> 
-            <span className="bg-gradient-to-r from-[#83a1cb] to-black bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-[#83a1cb] to-black bg-clip-text text-transparent">
               Scale With You
             </span>
           </h2>
@@ -103,7 +103,7 @@ export default function ShortAbout() {
 
                 {/* Soft hover gradient */}
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-0 group-hover:opacity-5 transition-opacity`}
+                  className={`absolute inset-0 bg-linear-to-br ${service.color} opacity-0 group-hover:opacity-5 transition-opacity`}
                 />
 
                 {/* Content */}
@@ -119,7 +119,7 @@ export default function ShortAbout() {
 
                   <h3
                     className={`text-3xl md:text-4xl font-black mb-2 transition-all duration-300
-                    group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r ${service.color}`}
+                    group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-linear-to-r ${service.color}`}
                   >
                     {service.title}
                   </h3>

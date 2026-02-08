@@ -32,6 +32,7 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'About', path: '/about' },
+        { name: 'Shopify', path: '/shopify-experts' },
         { name: 'Solutions', path: '/solutions' },
         { name: 'Industries', path: '/industries' },
         { name: 'Insights', path: '/insights' },
