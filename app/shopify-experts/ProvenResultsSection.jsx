@@ -5,12 +5,16 @@ import Link from "next/link";
 export default function ProvenResultsSection() {
   const projects = [
     {
-      url: "contourlaboratories.com",
-      category: "MEDICAL",
+      url: "old-money.com",
+      category: "HARDWARE",
     },
     {
-      url: "calroyslhardware.com",
-      category: "HARDWARE",
+      url: "bakdketo.com",
+      category: "FOOD & BEV",
+    },
+    {
+      url: "elouofficial.com",
+      category: "MEDICAL",
     },
     {
       url: "ozblasters.com.au",
@@ -19,10 +23,6 @@ export default function ProvenResultsSection() {
     {
       url: "luvinlife.com.au",
       category: "WELLNESS",
-    },
-    {
-      url: "realgoodfoodgroup.com",
-      category: "FOOD & BEV",
     },
   ];
 
@@ -68,7 +68,7 @@ export default function ProvenResultsSection() {
               industries, from medical tech to luxury fashion.
             </p>
           </div>
-          <button className="hidden lg:flex border-[1px] border-gray-300 rounded-full px-4 py-2 items-center gap-2 text-[15px] font-semibold text-gray-900 hover:text-gray-700 transition-colors group">
+          {/* <button className="hidden lg:flex border-[1px] border-gray-300 rounded-full px-4 py-2 items-center gap-2 text-[15px] font-semibold text-gray-900 hover:text-gray-700 transition-colors group">
             View All Projects
             <svg
               width="18"
@@ -85,7 +85,7 @@ export default function ProvenResultsSection() {
                 strokeLinejoin="round"
               />
             </svg>
-          </button>
+          </button> */}
         </div>
 
         {/* Two Column Layout */}
@@ -97,7 +97,11 @@ export default function ProvenResultsSection() {
                 key={index}
                 className="group bg-white border border-gray-200 rounded-2xl px-6 py-5 hover:border-gray-300 hover:shadow-lg transition-all duration-300 cursor-pointer"
               >
-                <Link href={`https://${project.url}`} className="flex items-center justify-between">
+                <Link
+                  href={`https://${project.url}`}
+                  target="_blank"
+                  className="flex items-center justify-between"
+                >
                   <div className="flex items-center gap-4">
                     {/* Globe Icon */}
                     <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-gray-100 transition-colors">

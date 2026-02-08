@@ -144,7 +144,7 @@ export default function HeroShopify() {
               {/* Main Card */}
               <div className="relative bg-white rounded-[32px] p-2 lg:p-3 transform rotate-[1deg] hover:rotate-0 transition-transform duration-500">
                 {/* HIPAA Badge */}
-                <div className="absolute top-8 -right-6 lg:-right-14 bg-white rounded-2xl shadow-lg px-6 py-5 border border-gray-100 z-20">
+                {/* <div className="absolute top-8 -right-6 lg:-right-14 bg-white rounded-2xl shadow-lg px-6 py-5 border border-gray-100 z-20">
                   <div className="flex items-center gap-2">
                     <div className="w-10 h-10 bg-[#e8f9f5] rounded-full flex items-center justify-center">
                       <svg
@@ -182,7 +182,7 @@ export default function HeroShopify() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Laptop Mockup */}
                 <div className="relative">
