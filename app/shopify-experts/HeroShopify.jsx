@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function HeroShopify() {
   return (
     <section className="relative min-h-screen bg-linear-to-br from-[#F3E8FF99] via-[#f0f5f9] to-[#e5eff5] overflow-hidden">
-      <div className="max-w-[1660px] w-[95%] mx-auto px-3 lg:px-12 py-28 lg:py-36">
+      <div className="max-w-[1660px] w-[95%] mx-auto px-3 lg:px-12 py-28 lg:py-44">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Content */}
           <div className="space-y-8">
@@ -122,7 +122,7 @@ export default function HeroShopify() {
             </div>
 
             {/* Stats */}
-            <div className="flex items-center gap-12 pt-6">
+            {/* <div className="flex items-center gap-12 pt-6">
               <div>
                 <div className="text-[36px] font-bold text-[#1a202c] leading-none">
                   85k+
@@ -139,7 +139,7 @@ export default function HeroShopify() {
                   Developers
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Content - Laptop Mockup */}

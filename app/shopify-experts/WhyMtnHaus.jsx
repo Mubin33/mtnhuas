@@ -141,7 +141,7 @@ export default function WhyMtnHaus() {
                     Shopify Project Delivered
                   </span>
                 </div>
-                <div className="text-xl lg:text-2xl font-bold text-gray-900">400+</div>
+                <div className="text-xl lg:text-2xl font-bold text-gray-900">4000+</div>
               </div>
 
               {/* Country Network */}
@@ -227,7 +227,7 @@ export default function WhyMtnHaus() {
                     </svg>
                   </div>
                   <span className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-                    Developers
+                    Shopify expert
                   </span>
                 </div>
                 <div className="text-xl lg:text-2xl font-bold text-gray-900">300+</div>

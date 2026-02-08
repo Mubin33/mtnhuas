@@ -58,9 +58,28 @@ const Hero = () => {
                         </h1>
 
                         {/* Subheadline */}
-                        <p className="text-lg text-slate-400 leading-relaxed max-w-lg mb-10 font-light">
+                        <p className="text-lg text-slate-400 leading-relaxed max-w-lg mb-1 font-light">
                             {heroData.subheadline}
                         </p>
+
+                        <div className="flex items-center gap-12 py-8">
+              <div>
+                <div className="text-[36px] font-bold text-[#ffffff] leading-none">
+                  85k+
+                </div>
+                <div className="text-[13px] text-[#718096] mt-1">
+                  Project Delivery
+                </div>
+              </div>
+              <div>
+                <div className="text-[36px] font-bold text-[#ffffff] leading-none">
+                  5000+
+                </div>
+                <div className="text-[13px] text-[#718096] mt-1">
+                  Developers
+                </div>
+              </div>
+            </div>
 
                         {/* Buttons */}
                         <div className="flex flex-col sm:flex-row items-start gap-4">
