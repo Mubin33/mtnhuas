@@ -32,10 +32,10 @@ const PRODUCT_ICONS = {
   "business-24x7": <Clock />,
   "edu-os": <GraduationCap />,
   "care-os": <HeartPulse />,
-  "mtnhuas-lms": <BookOpen />,
+  "mtnhaus-lms": <BookOpen />,
   "virtual-gate": <Monitor />,
   "smart-class": <School />,
-  "mtnhuas-stitch": <Layers />,
+  "mtnhaus-stitch": <Layers />,
   "mail-campaign": <Mail />,
   "count-trust": <Lock />,
   "cloud-managed-services": <Cloud />,
@@ -73,7 +73,7 @@ const Products = () => {
                 <div className="flex-1 p-8 md:p-12 lg:p-16 flex flex-col justify-center custom-scrollbar">
                   <div className="mb-6">
                     <h3 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-2 tracking-wide leading-none">
-                      {product.name.replace("mtnhuas ", "")}
+                      {product.name.replace("mtnhaus ", "")}
                     </h3>
                     <p className="text-[10px] font-bold text-blue-600 uppercase tracking-[0.15em] mb-3">
                       {product.tagline}

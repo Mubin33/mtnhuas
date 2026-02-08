@@ -3,8 +3,8 @@ import { Target, Users, ShieldCheck, Globe, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'About Us | mtnhuas',
-    description: 'Learn about mtnhuas, our mission, values, and how we are engineering the digital future from Philippines to the world.',
+    title: 'About Us | mtnhaus',
+    description: 'Learn about mtnhaus, our mission, values, and how we are engineering the digital future from Philippines to the world.',
 };
 
 const AboutPage = () => {
@@ -39,7 +39,7 @@ const AboutPage = () => {
                     <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Our Story</span>
                     <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 tracking-tight">Engineering the <br /> Digital Future</h1>
                     <p className="text-xl text-slate-500 max-w-3xl mx-auto leading-relaxed">
-                        mtnhuas is a global AI & Cloud Software Company. From our engineering hub in Philippines, we deliver secure, scalable, and intelligent solutions to enterprises worldwide.
+                        mtnhaus is a global AI & Cloud Software Company. From our engineering hub in Philippines, we deliver secure, scalable, and intelligent solutions to enterprises worldwide.
                     </p>
                 </div>
             </section>
@@ -49,7 +49,7 @@ const AboutPage = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
                         <div>
-                            <h2 className="text-4xl font-bold text-slate-900 mb-6 tracking-tight">Simple. Smart. <span className="text-[#83a1cb]">mtnhuas.</span></h2>
+                            <h2 className="text-4xl font-bold text-slate-900 mb-6 tracking-tight">Simple. Smart. <span className="text-[#83a1cb]">mtnhaus.</span></h2>
                             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                                 Our mission is to simplify complex business problems through intelligent automation and robust software architecture. We believe that the best technology is invisible — it just works, allowing you to focus on growth.
                             </p>

@@ -1,7 +1,7 @@
 export const PRODUCTS = [
     {
         id: 'agentic-ai',
-        name: 'mtnhuas Agentic AI',
+        name: 'mtnhaus Agentic AI',
         tagline: 'The Future of Autonomous Business',
         overview:
             'Next-generation digital tools that don’t just respond — they act. We deploy intelligent agents that autonomously execute complex workflows, reducing operational overhead by 70%.',
@@ -152,7 +152,7 @@ export const PRODUCTS = [
 
     {
         id: 'business-24x7',
-        name: 'mtnhuas Business 24x7',
+        name: 'mtnhaus Business 24x7',
         tagline: 'Automation Sales ERP',
         overview: 'A fully modular enterprise management suite that simplifies and automates key business processes. From supplier management to HR and financial modules, it serves as the backbone for modern business operations.',
         image: '/services/business.png',
@@ -195,7 +195,7 @@ export const PRODUCTS = [
 
     {
         id: 'edu-os',
-        name: 'mtnhuas EduOS',
+        name: 'mtnhaus EduOS',
         tagline: 'Digital Operating System for Universities',
         overview:
             'Unified ERP platform for modern universities covering admissions, academics, finance, HR, certification, and alumni management.',
@@ -246,7 +246,7 @@ export const PRODUCTS = [
 
     {
         id: 'care-os',
-        name: 'mtnhuas CareOS',
+        name: 'mtnhaus CareOS',
         tagline: 'Future of Integrated Hospital Management',
         overview:
             'End-to-end hospital management system unifying OPD/IPD, EMR, billing, insurance, diagnostics, and telemedicine.',
@@ -294,8 +294,8 @@ export const PRODUCTS = [
     },
 
     {
-        id: 'mtnhuas-lms',
-        name: 'mtnhuas LMS',
+        id: 'mtnhaus-lms',
+        name: 'mtnhaus LMS',
         tagline: 'Bridging Education and Industry',
         overview: 'A future-ready LMS designed for enterprise and educational workforce development. Features AI-powered control & analytics, multi-device learning access, and a comprehensive course builder.',
         image: '/eduerp.png',
@@ -379,7 +379,7 @@ export const PRODUCTS = [
 
     {
         id: 'smart-class',
-        name: 'mtnhuas SmartClass',
+        name: 'mtnhaus SmartClass',
         tagline: 'All-in-one Interactive Flat Panel',
         overview: 'Transforms traditional classrooms and meeting rooms into fully digital interactive environments. Includes built-in Android OS, multi-touch capabilities, and seamless cloud compatibility.',
         image: '/smart class_1.png',
@@ -418,8 +418,8 @@ export const PRODUCTS = [
     },
 
     {
-        id: 'mtnhuas-stitch',
-        name: 'mtnhuas Stitch',
+        id: 'mtnhaus-stitch',
+        name: 'mtnhaus Stitch',
         tagline: 'Precision Operational Workflow',
         overview: 'Streamline your operational workflow with an integrated ecosystem designed for precision. Features advanced machine tracking, movement signals, and a comprehensive operational reporting suite.',
         image: '/rmg.png',
@@ -461,7 +461,7 @@ export const PRODUCTS = [
 
     {
         id: 'mail-campaign',
-        name: 'mtnhuas Mail Campaign',
+        name: 'mtnhaus Mail Campaign',
         tagline: 'Enterprise-grade Email Marketing',
         overview: 'Platform for scalable, data-driven outreach offering an intelligence dashboard, audience management, and deep email analytics to optimize your communication strategy.',
         image: '/services/mail-campaign.png',
@@ -502,7 +502,7 @@ export const PRODUCTS = [
 
     {
         id: 'count-trust',
-        name: 'mtnhuas Count Trust',
+        name: 'mtnhaus Count Trust',
         tagline: 'Integrated Digital Governance Platform',
         overview: 'The BAG Member System is a secure digital platform for member management, financial tracking, and transparent online voting. Ensures absolute integrity with administrative control.',
         image: '/services/count-trust.jpg',

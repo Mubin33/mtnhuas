@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const TESTIMONIALS = [
     {
-        quote: "mtnhuas Group transformed our operational efficiency. Their Agentic AI solution didn't just automate tasks; it completely reimagined our workflow, saving us countless hours per week.",
+        quote: "mtnhaus Group transformed our operational efficiency. Their Agentic AI solution didn't just automate tasks; it completely reimagined our workflow, saving us countless hours per week.",
         author: "Sarah Jenkins",
         role: "CTO, TechFlow Dynamics",
         avatar: "https://randomuser.me/api/portraits/women/44.jpg"
@@ -23,13 +23,13 @@ const TESTIMONIALS = [
         avatar: "https://randomuser.me/api/portraits/women/68.jpg"
     },
     {
-        quote: "Security was our top concern. mtnhuas's zero-trust architecture gave us the confidence to migrate our most sensitive patient data to the cloud.",
+        quote: "Security was our top concern. mtnhaus's zero-trust architecture gave us the confidence to migrate our most sensitive patient data to the cloud.",
         author: "Dr. Marcus Thorne",
         role: "Director of IT, MedSecure Systems",
         avatar: "https://randomuser.me/api/portraits/men/85.jpg"
     },
     {
-        quote: "Developing with custom software usually takes months. mtnhuas delivered a working modular MVP in weeks, allowing us to capture the market ahead of schedule.",
+        quote: "Developing with custom software usually takes months. mtnhaus delivered a working modular MVP in weeks, allowing us to capture the market ahead of schedule.",
         author: "Priya Patel",
         role: "Founder, RapidScale Startups",
         avatar: "https://randomuser.me/api/portraits/women/12.jpg"

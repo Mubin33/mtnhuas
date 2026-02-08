@@ -23,7 +23,7 @@ export default function ErrorPage() {
       </div>
 
       <div className="absolute bottom-6 text-sm text-gray-500">
-        © {new Date().getFullYear()} mtnhuas — All Rights Reserved
+        © {new Date().getFullYear()} mtnhaus — All Rights Reserved
       </div>
     </div>
   );

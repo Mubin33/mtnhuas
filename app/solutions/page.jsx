@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { PRODUCTS } from '../data/products';
 
 export const metadata = {
-    title: 'Solutions | mtnhuas',
+    title: 'Solutions | mtnhaus',
     description: 'Explore our AI-driven solutions including Agentic AI, Cloud Managed Services, and Enterprise Software Systems.',
 };
 

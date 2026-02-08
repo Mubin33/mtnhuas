@@ -3,7 +3,7 @@ import { Building2, ShoppingCart, HeartPulse, GraduationCap, Factory, Truck, Lan
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Industries | mtnhuas',
+    title: 'Industries | mtnhaus',
     description: 'Bespoke AI and Cloud solutions for diverse industries including FinTech, Healthcare, Logistics, and RMG.',
 };
 

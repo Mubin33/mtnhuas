@@ -56,7 +56,7 @@ const Navbar = () => {
                         >
                             <img
                                 src="/mtnhaus_logo.png"
-                                alt="mtnhuas"
+                                alt="mtnhaus"
                                 className={`transition-all duration-300 ${scrolled ? 'h-10' : 'h-10'
                                     } object-contain ml-5`}
                             />

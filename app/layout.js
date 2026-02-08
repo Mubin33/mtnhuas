@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 export const metadata = {
-  title: "mtnhuas - Simple and Smart Offshoring",
+  title: "mtnhaus - Simple and Smart Offshoring",
   description: "Global AI & Cloud Software Company providing enterprise-grade, secure, and scalable solutions.",
 };
 

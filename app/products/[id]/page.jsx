@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
         };
     }
     return {
-        title: `${product.name} - mtnhuas`,
+        title: `${product.name} - mtnhaus`,
         description: product.overview,
     };
 }

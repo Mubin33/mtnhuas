@@ -6,7 +6,7 @@ import { Plus } from 'lucide-react';
 
 const FAQS = [
     {
-        question: "How does mtnhuas determine engagement models?",
+        question: "How does mtnhaus determine engagement models?",
         answer: "We offer flexible engagement models tailored to enterprise needs: Dedicated Teams for long-term scalability, Fixed Price for defined project scopes, and Time & Materials for evolving requirements. We start with a discovery phase to recommend the optimal structure."
     },
     {

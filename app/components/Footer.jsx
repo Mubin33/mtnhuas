@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-slate-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-xs">
-                    <p>© {new Date().getFullYear()} mtnhuas. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} mtnhaus. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                         <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

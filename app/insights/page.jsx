@@ -20,7 +20,7 @@ const InsightsPage = () => {
             author: "Architect Team",
             date: "Jan 05, 2026",
             image: "/mailer.png",
-            desc: "A deep dive into how mtnhuas manages high-concurrency systems for 10M+ users across continents."
+            desc: "A deep dive into how mtnhaus manages high-concurrency systems for 10M+ users across continents."
         },
         {
             title: "Zero-Trust Architecture: Beyond the Buzzword",
@@ -40,7 +40,7 @@ const InsightsPage = () => {
                     <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Knowledge Hub</span>
                     <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 tracking-tight italic">Insights & <br />Breakthroughs</h1>
                     <p className="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed font-medium">
-                        Exploring the frontier of AI, Cloud, and Engineering. Stay updated with the latest research from mtnhuas.
+                        Exploring the frontier of AI, Cloud, and Engineering. Stay updated with the latest research from mtnhaus.
                     </p>
                 </div>
             </section>

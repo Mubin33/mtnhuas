@@ -103,7 +103,7 @@ const ContactPage = () => {
                                     </div>
                                     <div className="flex items-start gap-4">
                                         <MapPin className="w-5 h-5 text-brandCuriousBlue mt-1" />
-                                        <span className="font-medium text-slate-100">mtnhuas Building, 2/F, McArthur Highway, <br /> Clark Freeport Area, Philippines 2009</span>
+                                        <span className="font-medium text-slate-100">mtnhaus Building, 2/F, McArthur Highway, <br /> Clark Freeport Area, Philippines 2009</span>
                                     </div>
                                 </div>
                             </div>

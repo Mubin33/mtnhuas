@@ -22,7 +22,7 @@ const CTA = () => {
                         </h2>
 
                         <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                            Join the ranks of forward-thinking enterprises that trust mtnhuas to build, scale, and secure their mission-critical software.
+                            Join the ranks of forward-thinking enterprises that trust mtnhaus to build, scale, and secure their mission-critical software.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
