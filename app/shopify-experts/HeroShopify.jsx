@@ -58,8 +58,8 @@ export default function HeroShopify() {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-4">
-              {/* <Link href="/contact">
-              <button className="group inline-flex items-center gap-2 px-7 py-4 bg-[#1a202c] text-white text-[15px] font-semibold rounded-full hover:bg-[#2d3748] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02]">
+              <Link href="/contact">
+              <button className="z-50 group inline-flex items-center gap-2 px-7 py-4 bg-[#1a202c] text-white text-[15px] font-semibold rounded-full hover:bg-[#2d3748] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02]">
                 Start Your Project
                 <svg
                   width="16"
@@ -77,7 +77,7 @@ export default function HeroShopify() {
                   />
                 </svg>
               </button>
-              </Link> */}
+              </Link>
               <Link href="#result">
               <button className="inline-flex items-center gap-2 px-6 py-4 text-[#2d3748] bg-white rounded-full text-[15px] font-semibold hover:text-[#00c9a7] transition-colors duration-300">
                 <svg
@@ -242,8 +242,8 @@ export default function HeroShopify() {
       </div>
 
       {/* Background Decorative Elements */}
-      <div className="absolute top-20 right-20 w-64 h-64 bg-[#00c9a7]/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 left-20 w-96 h-96 bg-blue-400/5 rounded-full blur-3xl"></div>
+      {/* <div className="absolute top-20 right-20 w-64 h-64 bg-[#00c9a7]/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 left-20 w-96 h-96 bg-blue-400/5 rounded-full blur-3xl"></div> */}
     </section>
   );
 }
