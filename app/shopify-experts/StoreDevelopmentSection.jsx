@@ -1,5 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import { MdOutlineMonitor } from "react-icons/md";
+import { IoIosPhonePortrait } from "react-icons/io";
+
+
 
 export default function StoreDevelopmentSection() {
   return (
@@ -109,14 +113,22 @@ export default function StoreDevelopmentSection() {
   <path d="M5.83301 14.1667L14.1663 5.83337" stroke="#CAD5E2" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
 </svg> */}
                 </div>
+                <div className='flex items-center gap-3 w-full'>
+                <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center mb-4">
+                    <IoIosPhonePortrait size={20} />
+                </div>
                 <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center mb-4">
                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
   <path d="M14.167 1.66663H5.83366C4.91318 1.66663 4.16699 2.41282 4.16699 3.33329V16.6666C4.16699 17.5871 4.91318 18.3333 5.83366 18.3333H14.167C15.0875 18.3333 15.8337 17.5871 15.8337 16.6666V3.33329C15.8337 2.41282 15.0875 1.66663 14.167 1.66663Z" stroke="#314158" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M10 15H10.0083" stroke="#314158" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
                 </div>
-                <h4 className="text-[16px] font-bold text-gray-900 mb-1">Mobile First</h4>
-                <p className="text-[13px] text-gray-600">Responsive design</p>
+                <div className="w-10 h-10 rounded-lg bg-gray-50 flex items-center justify-center mb-4">
+                    <MdOutlineMonitor size={20} />
+                </div>
+                </div>
+                <h4 className="text-[16px] font-bold text-gray-900 mb-1">Responsive Interface</h4>
+                <p className="text-[13px] text-gray-600">Optimized for all screen sizes</p>
               </div>
             </div>
           </div>
